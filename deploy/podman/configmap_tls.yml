@@ -30,7 +30,7 @@ data:
   POSTGRESQL_DATABASE: installer
   POSTGRESQL_PASSWORD: admin
   POSTGRESQL_USER: admin
-  PUBLIC_CONTAINER_REGISTRIES: 'quay.io'
+  PUBLIC_CONTAINER_REGISTRIES: 'quay.io,registry.ci.openshift.org'
   #RELEASE_IMAGES: '[{"openshift_version":"4.10","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"quay.io/openshift-release-dev/ocp-release:4.10.28-x86_64","version":"4.10.28"},{"openshift_version":"4.10","cpu_architecture":"arm64","cpu_architectures":["arm64"],"url":"quay.io/openshift-release-dev/ocp-release:4.10.28-aarch64","version":"4.10.28"},{"openshift_version":"4.11","cpu_architecture":"multi","cpu_architectures":["x86_64","arm64","ppc64le","s390x"],"url":"quay.io/openshift-release-dev/ocp-release:4.11.0-multi","version":"4.11.0","default":true}]'
   OS_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","url":"https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/39.20240322.3.1/x86_64/fedora-coreos-39.20240322.3.1-live.x86_64.iso","version":"39.20240322.3.1"}]'
   RELEASE_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"registry.ci.openshift.org/origin/release:4.15","version":"4.15.0-0.okd","default":true,"support_level":"release"}]'

@@ -4,9 +4,9 @@ metadata:
   name: config
 data:
   ASSISTED_SERVICE_URL:  https://127.0.0.1:8090
-  HTTPS_CERT_FILE=/etc/certs/tls.crt
-  HTTPS_KEY_FILE=/etc/certs/tls.key
-  HTTPS_CA_FILE=/etc/certs/tls.crt
+  HTTPS_CERT_FILE: "/etc/certs/tls.crt"
+  HTTPS_KEY_FILE=: "/etc/certs/tls.key"
+  HTTPS_CA_FILE: "/etc/certs/tls.crt"
   ASSISTED_SERVICE_HOST: 127.0.0.1:8090
   ASSISTED_SERVICE_SCHEME: https
   AUTH_TYPE: none
@@ -32,6 +32,6 @@ data:
   SERVICE_BASE_URL: https://127.0.0.1:8090
   STORAGE: filesystem
   OS_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","url":"https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/39.20240322.3.1/x86_64/fedora-coreos-39.20240322.3.1-live.x86_64.iso","version":"39.20240322.3.1"}]'
-  RELEASE_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"registry.ci.openshift.org/origin/release:4.15","version":"4.15.0-0.okd","default":true,"support_level":"beta"}]'
+  RELEASE_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"registry.ci.openshift.org/origin/release:4.15","version":"4.15.0-0.okd","default":true,"support_level":"release"}]'
   ENABLE_UPGRADE_AGENT: "true"
   ENABLE_OKD_SUPPORT: "true"
